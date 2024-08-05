@@ -1,2 +1,19 @@
 // For information on how to create your own theme, please see:
 // http://ionicframework.com/docs/theming/
+:root {
+	--ion-color-hello-v: #0084ff;
+	--ion-color-hello-v-rgb: 0,255,251;
+	--ion-color-hello-v-contrast: #000000;
+	--ion-color-hello-v-contrast-rgb: 0,0,0;
+	--ion-color-hello-v-shade: #16468d;
+	--ion-color-hello-v-tint: #16468d;
+}
+
+.ion-color-hello-v {
+	--ion-color-base: var(--ion-color-hello-v);
+	--ion-color-base-rgb: var(--ion-color-hello-v-rgb);
+	--ion-color-contrast: var(--ion-color-hello-v-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-hello-v-contrast-rgb);
+	--ion-color-shade: var(--ion-color-hello-v-shade);
+	--ion-color-tint: var(--ion-color-hello-v-tint);
+}
